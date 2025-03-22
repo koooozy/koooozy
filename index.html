@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Welcome to My Website</h2>
+        <p>シンプルでおしゃれな個人サイトへようこそ！</p>
+        <a href="#about" class="btn">もっと見る</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="me.jpg" alt="プロフィール画像" class="profile-img">
+        <p>こんにちは! 私はWeb開発が好きなKJです。</p>
+        <div class="social-links">
+            <a href="https://twitter.com/" target="_blank">Twitter</a>
+            <a href="https://github.com/" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">React</div>
+            <div class="skill-card">Node.js</div>
+            <div class="skill-card">Python</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>プロジェクト1</h3>
+                <p>プロジェクトの説明をここに書きます。</p>
+            </div>
+            <div class="project-card">
+                <h3>プロジェクト2</h3>
+                <p>プロジェクトの説明をここに書きます。</p>
+            </div>
+            <div class="project-card">
+                <h3>プロジェクト3</h3>
+                <p>プロジェクトの説明をここに書きます。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="https://formsubmit.co/your-email@example.com" method="POST">
+            <input type="text" name="name" placeholder="名前" required>
+            <input type="email" name="email" placeholder="メールアドレス" required>
+            <textarea name="message" placeholder="メッセージ" required></textarea>
+            <button type="submit">送信</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+</body>
+</html>
+
